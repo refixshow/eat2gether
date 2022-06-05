@@ -668,6 +668,7 @@ export default function Example() {
                               <td className="hidden px-6 py-4 whitespace-nowrap text-sm text-gray-500 md:block">
                                 <span
                                   className={classNames(
+                                    // @ts-ignore
                                     statusStyles[transaction.status],
                                     "inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium capitalize"
                                   )}
